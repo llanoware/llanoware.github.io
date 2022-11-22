@@ -1,0 +1,50 @@
+header img {
+    height: 60px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1124px;
+    margin: 0px auto;
+    padding: 50px 4rem 0px;
+    height: 70px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+
+.active{
+    color: #FF5858;
+}
+.Llanoware-small{
+    width: 55px;
+}
+
+.btn-open{
+    display: none;
+    font-size: 28px;
+    color: #ff5858;
+}
+
+
+@media screen and (max-width: 660px){
+    nav{
+        padding: 50px 2rem 0;
+    }
+    .items{
+        display: none;
+    }
+    .btn-open{
+        display: block;
+    }
+    header img {
+        height: 40px;
+    }
+}
